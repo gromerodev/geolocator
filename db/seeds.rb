@@ -19,13 +19,13 @@ Place.find_or_create_by(
     city: "St Petersburg",
     state: "FL"
   )
-sleep1
+sleep 1
 Place.find_or_create_by(
     name: "Joe's Stone Crab",
     street: "11 Washington Ave",
     city: "Miami Beach"
   )
-sleep1
+sleep 1
 Place.find_or_create_by(
     name: "Wyncode",
     street: "549 NW 28th Street",
